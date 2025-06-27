@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>Country App</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Explore different countries</h1>
+      <p>Search for the country you want to know about.</p>
+    </header>
+
+    <!-- Search and filter region -->
+    <section class="search-and-filter">
+      <div class="search">
+        <input type="text" class="search-button" placeholder="Search for country">
+        <button class="search-button">
+          <a href="#">Search</a>
+          <div class="tooltip">Search</div>
+        </button>
+      </div>
+      <select id="filter">
+        <option value="">All regions</option>
+        <option value="Africa">Africa</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Antartica">Antartica</option>
+        <option value="Oceania">Australia</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+      </select>
+    </section>
+    <!-- End of Search and Filter Section -->
+    <h2>Featured Countries</h2>
+    <!-- Country Cards -->
+    <section class="countries-container">
+      <div class="country-card usa">
+        <img src="https://flagcdn.com/w320/us.png" alt="United States Flag">
+        <h3>United States</h3>
+        <p>Capital: Washington, D.C.</p>
+        <p>Region: North America</p>
+        <p>Population: 347, 215, 306</p>
+      </div>
+      <div class="country-card france">
+        <img src="https://flagcdn.com/w320/fr.png" alt="France Flag">
+        <h3>France</h3>
+        <p>Capital: Paris</p>
+        <p>Region: Europe</p>
+        <p>Population: 66, 647, 926</p>
+      </div>
+      <div class="country-card australia">
+        <img src="https://flagcdn.com/w320/au.png" alt="Australia Flag">
+        <h3>Australia</h3>
+        <p>Capital: Canberra</p>
+        <p>Region:  Oceania</p>
+        <p>Population: 26, 966, 364</p>
+      </div>
+      <div class="country-card japan">
+        <img src="https://flagcdn.com/w320/jp.png" alt="Japan Flag">
+        <h3>Japan</h3>
+        <p>Capital: Tokyo</p>
+        <p>Region: Asia</p>
+        <p>Population: 123, 123, 185</p>
+      </div>
+      <div class="country-card denmark">
+        <img src="https://flagcdn.com/w320/dk.png" alt="Denmark Flag">
+        <h3>Denmark</h3>
+        <p>Capital: Copenhagen</p>
+        <p>Region: Europe</p>
+        <p>Population: 6, 001, 425</p>
+      </div>
+      <div class="country-card thailand">
+        <img src="https://flagcdn.com/w320/th.png" alt="Thailand Flag">
+        <h3>Thailand</h3>
+        <p>Capital: Bangkok</p>
+        <p>Region: Asia</p>
+        <p>Population: 71, 620, 771</p>
+      </div>
+      <div class="country-card senegal">
+        <img src="https://flagcdn.com/w320/sn.png" alt="Senegal Flag">
+        <h3>Senegal</h3>
+        <p>Capital: Dakar</p>
+        <p>Region: Africa</p>
+        <p>Population: 18, 913, 084</p>
+      </div>
+      <div class="country-card nigeria">
+        <img src="https://flagcdn.com/w320/ng.png" alt="Nigeria Flag">
+        <h3>Nigeria</h3>
+        <p>Capital: Abuja</p>
+        <p>Region: Africa</p>
+        <p>Population: 237, 280, 893</p>
+      </div>
+      
+      <div class="country-card india">
+        <img src="https://flagcdn.com/w320/in.png" alt="India Flag">
+        <h3>India</h3>
+        <p>Capital: New Delhi</p>
+        <p>Region: Asia</p>
+        <p>Population: 1, 463, 526, 271</p>
+      </div>
+      <div class="country-card brazil">
+        <img src="https://flagcdn.com/w320/br.png" alt="Brasil Flag">
+        <h3>Brazil</h3>
+        <p>Capital: Brasillia</p>
+        <p>Region: South America</p>
+        <p>Population: 212, 797, 499</p>
+      </div>
+      <div class="country-card portugal">
+        <img src="https://flagcdn.com/w320/pt.png" alt="Portugal Flag">
+        <h3>Portugal</h3>
+        <p>Capital: Lisbon</p>
+        <p>Region: Europe</p>
+        <p>Population: 10, 412, 379</p>
+      </div>
+      
+      <div class="country-card argentina">
+        <img src="https://flagcdn.com/w320/ar.png" alt="Argentina Flag">
+        <h3>Argentina</h3>
+        <p>Capital: Buenos Aires</p>
+        <p>Region: South America</p>
+        <p>Population: 45, 847, 719</p>
+      </div>
+      <div class="country-card korea">
+        <img src="https://flagcdn.com/w320/kr.png" alt="Korea Flag">
+        <h3>Korea</h3>
+        <p>Capital: Seoul</p>
+        <p>Region: Asia</p>
+        <p>Population: 51, 669, 083</p>
+      </div>
+      <div class="country-card netherlands">
+        <img src="https://flagcdn.com/w320/nl.png" alt="Netherlands Flag">
+        <h3>Netherlands</h3>
+        <p>Capital: Amsterdam</p>
+        <p>Region: Europe</p>
+        <p>Population: 18, 342, 247</p>
+      </div>
+      <div class="country-card ghana">
+        <img src="https://flagcdn.com/w320/gh.png" alt="Ghana Flag">
+        <h3>Ghana</h3>
+        <p>Capital: Accra</p>
+        <p>Region: Africa</p>
+        <p>Population: 237, 280, 893</p>
+      </div>
+    </section>
+    <!-- END OF COUNTRY CARDS SECTION -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Built by Ejedafeta Emmanuella. &copy; 2025</p>
+    <p>All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>
