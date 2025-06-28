@@ -4,7 +4,7 @@ A responsive web application showcasing country information in an elegant card-b
 
 ## 📖 Project Description
 
-This website presents information for 50+ countries in visually appealing cards. Each card displays essential country details in a well-organized format. Built with semantic HTML and custom CSS, it demonstrates foundational web development skills and responsive design principles.
+This website presents information for 30+ countries in visually appealing cards. Each card displays essential country details in a well-organized format. Built with semantic HTML and custom CSS, it demonstrates foundational web development skills and responsive design principles.
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ This website presents information for 50+ countries in visually appealing cards.
 - 📱 Responsive Design: Optimized for desktop, tablet, and mobile devices
 - 🎨 Custom CSS Styling: Hand-crafted styles with attention to visual hierarchy
 - 🏗 Semantic HTML: Well-structured markup for accessibility
-- 🌐 50+ Countries: Curated selection of countries from around the world
+- 🌐 30+ Countries: Curated selection of countries from around the world
 
 ## 🛠 Technologies Used
 
@@ -50,7 +50,6 @@ countries/
 ## 🔮 Future Enhancements
 
 This project is designed to evolve into a fully dynamic application. Planned improvements include:
-
 ### Core Features
 - API Integration: Fetch live country data from https://restcountries.com/v3.1/all?fields=name,capital,region,flags,population
 - Dynamic Cards: Replace static HTML with JavaScript-generated content
